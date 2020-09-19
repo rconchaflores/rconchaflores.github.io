@@ -1,9 +1,9 @@
 body {
-    background-color: rgb(190, 213, 236);
+    background-color: rgb(59, 71, 83);
 }
 
 #content {
-    background-color: aliceblue;
+    background-color: rgb(59, 71, 83);
     max-width: 50%;
     margin: 100px auto;
     border-radius: 10px;
@@ -22,7 +22,7 @@ img {
 
 header,
 footer {
-    background-color: #0ad6fa;
+    background-color: #00c2e4;
     border-radius: 10px;
     text-align: center;
     padding: 10px;
@@ -38,7 +38,7 @@ footer {
 }
 
 footer a:hover {
-    color: deeppink;
+    color: rgb(194, 194, 194);
 }
 
 main {
@@ -48,7 +48,7 @@ main {
 @media screen and (max-width: 750px) {
     #content {
       max-width: 90%;
-      background-color: #FFF9F9;
+      background-color: #252525;
       margin: auto;
     }
 }
