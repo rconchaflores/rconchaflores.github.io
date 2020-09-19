@@ -29,8 +29,8 @@ footer {
     color: aliceblue;
 }
 
-#lastModified {
-    margin-right: 300px;
+#dateModified {
+    text-align: center;
 }
 
 .BYUI {
