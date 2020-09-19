@@ -22,11 +22,11 @@ img {
 
 header,
 footer {
-    background-color: #00c2e4;
+    background-color: #002ba1;
     border-radius: 10px;
     text-align: center;
     padding: 10px;
-    color: aliceblue;
+    color: rgb(0, 136, 255);
 }
 
 #dateModified {
