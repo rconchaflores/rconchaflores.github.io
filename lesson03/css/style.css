@@ -1,0 +1,139 @@
+header, footer {
+    margin: 1rem auto;
+    max-width: 50em;
+    height: auto;
+    color: white;
+    background-color: #00264c;
+    text-align: center;
+    padding: 1rem;
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+
+.header{
+    overflow: auto;
+}
+  
+.header h1 {
+    text-align:center;
+}
+
+header,
+nav,
+main,
+footer {
+	max-width: 767px;
+	margin: 0 auto;
+}
+
+header {
+    font-size: 3rem;
+    text-align: center;
+    line-height: 1px;
+    font-family: 'PT Sans Narrow', sans-serif;
+    text-align: justify;
+}
+
+#logo{
+    max-width: 40%;
+    height: auto;
+    width: 100px;
+    height: 100px;
+    background: #555;
+    margin: 20px;
+}
+
+#colorscheme{
+    max-width: 80%;
+    height: auto;
+    margin: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+nav ul li a {
+	display: block;
+	color: black;
+	text-align: center;
+	padding: 0.75rem;
+	text-decoration: none;
+    font-size: 0.95rem;
+}
+
+nav a:hover {
+	background-color: #8ec6ff;
+	color: #36454f;
+}
+
+@media only screen and (min-width: 37.5em) {
+	nav ul { display: flex; }
+        nav ul li { flex: 1 1 100%; }
+}
+
+h1{
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 2.5rem;
+    color: white;
+    background-color: #00264c;
+}
+
+h2{
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 1.75rem;
+    background-color: #00264c;
+    color: white;
+    text-align: center;
+}
+
+h3{
+    font-size: 1.5rem;
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+
+p {
+    font-size: 1.25em;
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+
+/*img {
+    width: 100px;
+    height: 100px;
+    background: #555;
+    margin: 20px;
+}*/
+
+.content {
+    background-color: #ffffff;
+  }
+
+a {
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+
+.maintable {
+    margin: 20px;
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+
+.tablecolumns{
+    font-weight: bold;
+}
+.tablecolumns,
+.h1table,
+.h2table,
+.ptable,
+.navtable,
+.headertable {
+    height: 1em;
+    background-color: 8ec6ff;
+    width: 15em;
+    text-align: left;
+    font-size: 2em;
+    padding: .85em;
+}
