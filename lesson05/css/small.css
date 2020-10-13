@@ -38,6 +38,11 @@ header img {
 .ham {
   margin-top: 20px;
   margin-left: 45px;
+  background-color: transparent;
+  font-size: 1.6rem;
+  color: white;
+  text-align: center;
+  border: none;
 }
 
 nav {
@@ -108,4 +113,10 @@ h3 {
 
 .footer-bar div {
   display: inline;
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
 }
