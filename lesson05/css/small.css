@@ -1,0 +1,111 @@
+header, .footer-bar, .contact-info {
+  width:100%;
+  overflow:hidden;
+  color: white;
+  background-color: #00264c;
+  text-align: center;
+  padding: 1rem;
+  font-family: 'PT Sans Narrow', sans-serif;
+}
+
+header {
+	background-color: #00264c;
+	display: flex;
+	align-items:center;
+	justify-content:center;
+}
+
+header img {
+	width: 100px;
+  height: auto;
+  margin-right: 20px;
+}
+
+.headings {
+	display: flex;
+  flex-direction: column;
+  margin: 0;
+}
+
+.headings h1, p {
+  margin: 0;
+}
+
+.slogan {
+  margin-top: 10px;
+}
+
+.ham {
+  margin-top: 20px;
+  margin-left: 45px;
+}
+
+nav {
+	margin: 0 auto;
+	max-width: 760px;
+	background-color: #8EC6FF;
+}
+
+.navigation {
+	list-style: none;
+	padding: 0;
+}
+
+.navigation li {
+	display: none;
+}
+
+.navigation a {
+	display: block;
+	padding: 0.75rem;
+	text-align: center;
+	text-decoration: none;
+	color: black;
+  font-weight: 700;
+  font-family: 'PT Sans Narrow', sans-serif;
+  font-size: 1.25rem;
+}
+
+.navigation a:hover {
+	color: white;
+	background-color: black;
+}
+
+.responsive li {
+	display: block;
+}
+
+h2 {
+  text-align: center;
+  font-family: 'PT Sans Narrow', sans-serif;
+}
+
+.herodiv{
+  margin: 10px auto;
+  position: relative;
+  align-items: center;
+}
+
+.herodiv img {
+  width: auto;
+  max-height: 300px;
+}
+
+h3 {
+  font-family: 'PT Sans Narrow', sans-serif;
+}
+
+.weathersummary {
+  font-family: 'PT Sans Narrow', sans-serif;
+  border: 1px solid black;
+  padding: 1.5rem;
+  margin: auto 10px;
+}
+
+.contact-info{
+  margin-bottom: 20px;
+}
+
+.footer-bar div {
+  display: inline;
+}
