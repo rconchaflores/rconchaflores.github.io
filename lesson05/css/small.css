@@ -1,3 +1,7 @@
+#alert {
+  text-align: center;
+}
+
 header, .footer-bar, .contact-info {
   width:100%;
   overflow:hidden;
@@ -103,12 +107,125 @@ h3 {
 .weathersummary {
   font-family: 'PT Sans Narrow', sans-serif;
   border: 1px solid black;
-  padding: 1.5rem;
+  padding: 0.5rem;
   margin: auto 10px;
 }
 
-.contact-info{
+.weathersummary h3 {
+  margin-top: 0;
+  text-align: center;
+	text-decoration: underline;
+}
+
+.stats {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 20px;
+}
+
+.stats p {
+  text-align: right;
+  grid-column: 1;
+}
+
+.forecast {
+  margin: auto 10px;
+  position: relative;
+}
+
+.forecast img{
+  width: 800px;
+}
+
+.today {
+	top: 10px;
+	position: absolute;
+	left: 10px;
+	border: 2px solid black;
+	padding: 1.5rem;
+	box-shadow: 0 0 30px #111;
+	opacity: .8;
+	padding: 1.5rem;
+	background: radial-gradient(#eee, #8EC6FF);
+  }
+  
+  .tomorrow {
+	top: 10px;
+	position: absolute;
+	left: 160px;
+	border: 2px solid black;
+	padding: 1.5rem;
+	box-shadow: 0 0 30px #111;
+	opacity: .8;
+	padding: 1.5rem;
+	background: radial-gradient(#eee, #8EC6FF);
+  }
+
+  .daythree {
+	top: 10px;
+	position: absolute;
+	left: 310px;
+	border: 2px solid black;
+	padding: 1.5rem;
+	box-shadow: 0 0 30px #111;
+	opacity: .8;
+	padding: 1.5rem;
+	background: radial-gradient(#eee, #8EC6FF);
+  }
+  
+  .dayfour {
+	top: 10px;
+	position: absolute;
+	right: 160px;
+	border: 2px solid black;
+	padding: 1.5rem;
+	box-shadow: 0 0 30px #111;
+	opacity: .8;
+	padding: 1.5rem;
+	background: radial-gradient(#eee, #8EC6FF);
+  }
+
+  .dayfive {
+	top: 10px;
+	position: absolute;
+	right: 10px;
+	border: 2px solid black;
+	padding: 1.5rem;
+	box-shadow: 0 0 30px #111;
+	opacity: .8;
+	padding: 1.5rem;
+	background: radial-gradient(#eee, #8EC6FF);
+  }
+
+.article {
   margin-bottom: 20px;
+}
+.article h3 {
+  text-align: center;
+}
+
+.article img {
+  float: right;
+}
+
+.article p {
+font-family: 'PT Sans Narrow', sans-serif;
+margin: 20px auto;
+text-align: center;
+display: inline;
+}
+
+.contact-info{
+  margin-bottom: 0;
+}
+
+.contact-info img {
+  margin-top: 20px;
+}
+
+.footer-bar {
+  margin-top: 0;
+  padding-top: 0;
 }
 
 .footer-bar div {

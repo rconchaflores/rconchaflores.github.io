@@ -24,6 +24,7 @@
   
   .herodiv img {
 	max-width: 759px;
+	margin-right: 45px;
   }
 
   .weathersummary{
@@ -36,10 +37,26 @@
 	padding: 1.5rem;
 	box-shadow: 0 0 30px #111;
 	opacity: .8;
+	padding: 1.5rem;
 	background: radial-gradient(#eee, #8EC6FF);
   }
 
-  .weathersummary h3 {
-	margin-top: 0px;
+  .stats {
+	grid-gap: 5px;
+  }
+
+  .contact-info {
+	  display: grid;
+	  grid-template-columns: 1fr 1fr;
+	  grid-template-rows: 1fr;
+  }
+
+  .contact-info img {
+	  grid-column-start: 1;
+  }
+
+  .contact-info h3, p {
+	  grid-column-start: 2;
+	  text-align: center;
   }
 }
