@@ -3,11 +3,11 @@
 
 <head>
   <meta charset="UTF-8">
-  <meta name="description" content="Week 04 Assignment for Rodrigo Concha in WDD 230-11: Web FrontEnd Development at Brigham Young University - Idaho">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="https://fonts.googleapis.com/css2?family=Fira+Sans&family=PT+Sans+Narrow&display=swap" rel="stylesheet">
   <link rel="shortcut icon" href="images/climateize.ico">
   <title>Climateize | Preston</title>
-  <link rel="stylesheet" href="../css/normalize.css">
+  <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/small.css">
   <link rel="stylesheet" href="css/medium.css">
   <link rel="stylesheet" href="css/large.css">
@@ -31,7 +31,7 @@
   <nav>
     <ul class="navigation">
       <li><a class="nav-link" href="#">Home</a></li>
-      <li><a class="nav-link" href="#">Preston</a></li>
+      <li><a id="active" class="nav-link" href="#">Preston</a></li>
       <li><a class="nav-link" href="#">Soda Springs</a></li>
       <li><a class="nav-link" href="#">Fish Haven</a></li>
       <li><a class="nav-link" href="#">Storm Center</a></li>
@@ -52,15 +52,24 @@
         </section>
     </div>
     <div class="forecast">
-      <img src="images/forecast.jpg" alt="forecast banner">
-      <section class="forecastdays">
-        <h3 class="today">Today</h3>
-        <h3 class="tomorrow">Tomorrow</h3>
-        <h3 class="daythree">Day Three</h3>
-        <h3 class="dayfour">Day Four</h3>
-        <h3 class="dayfive">Day Five</h3>
-      </section>
-    </div>
+      <h2>Five-day Forecast</h2>
+      <table class="forecasttable">
+          <tr>
+              <th>Today</th>
+              <th>Tomorrow</th>
+              <th>In 2 days</th>
+              <th>Three days</th>
+              <th>Four days</th>
+          </tr>
+          <tr>
+              <td><img src="images/sunny.png" alt="weathertoday"><br>75 &deg;F</td>
+              <td><img src="images/sunny.png" alt="weathertomorrow"><br>68 &deg;F</td>
+              <td><img src="images/sunny.png" alt="weatherintwodays"><br>70 &deg;F</td>
+              <td><img src="images/sunny.png" alt="weatherinthreedays"><br>69 &deg;F</td>
+              <td><img src="images/sunny.png" alt="weatherinfourdays"><br>71 &deg;F</td>
+          </tr>
+      </table>
+  </div>
     <div class=article>
       <h3>Article</h3>
       <img src="images/article.jpg" alt="article image" height=200;>
@@ -76,9 +85,16 @@
   </main>
   <footer>
     <div class="contact-info">
-      <h3>Contact Information</h3>
-      <p>Email: contact@climateize.com</p>
-      <p>Phone: 123-456-7891</p>
+      <section class="contact">
+        <h3>Contact Information</h4>
+        <p>1 Address St. Preston, ID</p>
+        <p>contact@email.com</p>
+        <p>(123) 456-7890</p>
+        <a href="https://www.facebook.com/"><img class="social" src="images/facebook-logo.png" alt="facebook"></a>
+        <a href="https://www.instagram.com/"><img class="social" src="images/instagram-logo.png" alt="instagram"></a>
+        <a href="https://www.youtube.com/"><img class="social" src="images/youtube-logo.png" alt="youtube"></a>
+        <a href="https://twitter.com/"><img class="social" src="images/twitter-logo.png" alt="twitter"></a>
+    </section>
       <img src="images/preston.png" alt="prestonmap" height=200;>
     </div>
     <div class="footer-bar">

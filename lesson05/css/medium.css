@@ -9,7 +9,9 @@
   }
   
   .navigation {
-		display: flex;
+	display: flex;
+	max-width: 960px;
+	margin: 0 auto;
 	}
 	.navigation li {
 		display: block;
@@ -45,18 +47,22 @@
 	grid-gap: 5px;
   }
 
+  .article img {
+	  margin-bottom: 20px;
+  }
+
   .contact-info {
-	  display: grid;
-	  grid-template-columns: 1fr 1fr;
-	  grid-template-rows: 1fr;
+	display: flex;
+    flex-direction: row-reverse;
+	margin: 15px auto;
+	max-width: fit-content;  	
   }
 
-  .contact-info img {
-	  grid-column-start: 1;
+  .contact {
+	  margin-left: 25px;
   }
 
-  .contact-info h3, p {
-	  grid-column-start: 2;
-	  text-align: center;
+  footer {
+	  padding-top: 0;
   }
 }
