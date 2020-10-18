@@ -1,8 +1,24 @@
 @media only screen and (min-width: 760px) {
 	.headings h1 {
 		font-size: 3rem;
-	}
-
+  }
+  
+  .navigation {
+    display: flex;
+    max-width: 960px;
+    margin: 0 auto;
+    }
+    .navigation li {
+      display: block;
+      flex: 1 1 auto;
+    }
+    .navigation a {
+      text-align: center;
+    }
+    .ham {
+      display: none;
+    }
+    
 	.slogan {
 		letter-spacing: 1.5pt;
 		font-size: larger;
