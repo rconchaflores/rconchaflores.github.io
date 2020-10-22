@@ -1,0 +1,52 @@
+@media only screen and (min-width: 560px) {
+	.headings h1 {
+		font-size: 3rem;
+	}
+
+	.slogan {
+		letter-spacing: 1.5pt;
+		margin-left: 17px;
+  }
+
+  .herodiv img {
+	max-width: 759px;
+	margin-right: 45px;
+  }
+
+  .weathersummary{
+	display: block;
+	position: absolute;
+	top: 15px;
+	right: 20px;
+	font-family: 'PT Sans Narrow', sans-serif;
+	border: 2px solid black;
+	padding: 1.5rem;
+	box-shadow: 0 0 30px #111;
+	opacity: .8;
+	padding: 1.5rem;
+	background: radial-gradient(#eee, #8EC6FF);
+  }
+
+  .stats {
+	grid-gap: 5px;
+  }
+
+  .article img {
+	  margin-bottom: 20px;
+  }
+
+  .contact-info {
+	display: flex;
+    flex-direction: row-reverse;
+	margin: 15px auto;
+	max-width: fit-content;  	
+  }
+
+  .contact {
+	  margin-left: 25px;
+  }
+
+  footer {
+	  padding-top: 0;
+  }
+}

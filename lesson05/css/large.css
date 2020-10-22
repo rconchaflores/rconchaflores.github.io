@@ -18,6 +18,10 @@
     .ham {
       display: none;
     }
+
+    .mainh2 {
+      margin-top: 20px;
+    }
     
 	.slogan {
 		letter-spacing: 1.5pt;

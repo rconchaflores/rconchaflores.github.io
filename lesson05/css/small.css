@@ -55,6 +55,11 @@ nav {
 	background-color: #8EC6FF;
 }
 
+#active {
+  background-color: #000;
+  color: #fff
+}
+
 .navigation {
 	list-style: none;
 	padding: 0;
@@ -84,13 +89,13 @@ nav {
 	display: block;
 }
 
-#active {
-  text-decoration: underline;
-}
-
 h2 {
   text-align: center;
   font-family: 'PT Sans Narrow', sans-serif;
+}
+
+.mainh2 {
+  margin-top: 0%;
 }
 
 .herodiv{
@@ -209,4 +214,10 @@ display: inline;
 
 .social:hover {
 opacity: 1;
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
 }
