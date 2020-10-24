@@ -1,16 +1,11 @@
-@media only screen and (min-width: 560px) {
+@media only screen and (min-width: 37.5em) {
 	.headings h1 {
 		font-size: 3rem;
 	}
 
 	.slogan {
 		letter-spacing: 1.5pt;
-		margin-left: 17px;
-  }
-
-  .herodiv img {
-	max-width: 759px;
-	margin-right: 45px;
+		margin-left: 3%;
   }
 
   .weathersummary{
@@ -25,10 +20,6 @@
 	opacity: .8;
 	padding: 1.5rem;
 	background: radial-gradient(#eee, #8EC6FF);
-  }
-
-  .stats {
-	grid-gap: 5px;
   }
 
   .article img {
@@ -48,5 +39,9 @@
 
   footer {
 	  padding-top: 0;
+  }
+
+  .mapimage img {
+	  max-width: 500px;
   }
 }

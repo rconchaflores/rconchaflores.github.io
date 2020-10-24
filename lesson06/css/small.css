@@ -36,7 +36,12 @@ header img {
 }
 
 .slogan {
-  margin-top: 10px;
+  margin-top: 3%;
+  margin-left: 2%;
+}
+
+.logoimage img {
+  width: 100%;
 }
 
 .ham {
@@ -115,8 +120,9 @@ h3 {
 .weathersummary {
   font-family: 'PT Sans Narrow', sans-serif;
   border: 1px solid black;
+  max-width: 25em;
   padding: 0.5rem;
-  margin: auto 10px;
+  margin: 0 auto;
 }
 
 .weathersummary h3 {
@@ -125,15 +131,8 @@ h3 {
 	text-decoration: underline;
 }
 
-.stats {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-gap: 20px;
-}
-
-.stats p {
-  text-align: right;
-  grid-column: 1;
+.weathersummary h3 p {
+  text-align: center;
 }
 
 .forecast {
@@ -220,6 +219,11 @@ display: inline;
 
 .social:hover {
 opacity: 1;
+}
+
+.mapimage img {
+  width: 96%;
+  margin: 0 2%;
 }
 
 .clearfix:after {

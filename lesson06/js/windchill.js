@@ -1,5 +1,13 @@
-function windChill(tempF, speed) {
-    let s = Math.pow(speed, 0.16);
-    f = 35.74 + (0.6215 * tempF) - (35.75 * s) + (0.4275 * tempF * s);
-    return f.toFixed(2) + "&#8457;";
-  }
+let high = parseFloat(document.getElementById('high').innerHTML);
+let windspeed = parseFloat(document.getElementById('windspeed').innerHTML);
+
+let roundedWindspeed = Math.pow(windspeed, 0.16);
+let windchill = 35.74 + 0.6215 * high - 35.75 * roundedWindspeed + 0.4275 * high * roundedWindspeed;
+
+if (high <= 50 && windspeed > 3) {
+
+  document.getElementById('windchill').innerHTML = Math.round(windchill);
+} else {
+
+  windchill = "N/A";
+}
