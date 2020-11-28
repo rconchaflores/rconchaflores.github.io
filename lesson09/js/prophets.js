@@ -12,17 +12,20 @@ fetch(requestURL)
       let h2 = document.createElement('h2');
       let birthDate= document.createElement('p');
       let birthPlace= document.createElement('p');
+      let numOfChildren = document.createElement('p');
       let image = document.createElement('img');
 
       h2.textContent = prophets[i].name + ' ' + prophets[i].lastname;
       birthDate.textContent = "Date of Birth: " + prophets[i].birthdate;
       birthPlace.textContent = "Place of Birth: " + prophets[i].birthplace;
+      numOfChildren.textContent = "Number of Children: " + prophets[i].numofchildren;
       image.setAttribute('src', prophets[i].imageurl);
       image.setAttribute('alt', `${prophets[i].name} ${prophets[i].lastname}`);
 
       card.appendChild(h2);
       card.appendChild(birthDate);
       card.appendChild(birthPlace);
+      card.appendChild(numOfChildren);
       card.appendChild(image);
 
       document.querySelector('div.cards').appendChild(card);
