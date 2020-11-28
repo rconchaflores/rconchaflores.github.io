@@ -1,6 +1,6 @@
-const requestURL = 'https://byui-cit230.github.io/lessons/lesson-09/data/latter-day-prophets.json';
+//const requestURL = 'https://byui-cit230.github.io/lessons/lesson-09/data/latter-day-prophets.json';
 
-fetch(requestURL)
+fetch("../lesson09/js/prophets.json")
   .then(function (response) {
     return response.json();
   })
@@ -13,12 +13,14 @@ fetch(requestURL)
       let birthDate= document.createElement('p');
       let birthPlace= document.createElement('p');
       let numOfChildren = document.createElement('p');
+      let orderOfProphet = document.createElement('p');
       let image = document.createElement('img');
 
       h2.textContent = prophets[i].name + ' ' + prophets[i].lastname;
       birthDate.textContent = "Date of Birth: " + prophets[i].birthdate;
       birthPlace.textContent = "Place of Birth: " + prophets[i].birthplace;
       numOfChildren.textContent = "Number of Children: " + prophets[i].numofchildren;
+      orderOfProphet.textContent = "Latter-day Prophet #" + prophets[i].order;
       image.setAttribute('src', prophets[i].imageurl);
       image.setAttribute('alt', `${prophets[i].name} ${prophets[i].lastname}`);
 
@@ -26,6 +28,7 @@ fetch(requestURL)
       card.appendChild(birthDate);
       card.appendChild(birthPlace);
       card.appendChild(numOfChildren);
+      card.appendChild(orderOfProphet);
       card.appendChild(image);
 
       document.querySelector('div.cards').appendChild(card);
