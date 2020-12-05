@@ -115,6 +115,10 @@
     margin-top: 5px;
   }
 
+  .cards h4 {
+    margin: 0.5em 0;
+  }
+  
   .cards section {
     box-shadow: -4px 0px 15px 1px rgba(76, 76, 76, 0);
     margin: auto;

@@ -28,6 +28,11 @@
   grid-row: 1;
 }
 
+.cards section #details {
+  padding: 70px 0;
+  text-align: center;
+}
+
   .contact-info {
 	display: flex;
     flex-direction: row-reverse;
