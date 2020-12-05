@@ -1,0 +1,179 @@
+#alert {
+    text-align: center;
+  }
+  
+  header, footer {
+    width:100%;
+    overflow:hidden;
+    color: white;
+    background-color: #00264c;
+    text-align: center;
+    padding: 1rem;
+    font-family: 'PT Sans Narrow', sans-serif;
+  }
+  
+  header {
+      background-color: #00264c;
+      display: flex;
+      align-items:center;
+      justify-content:center;
+  }
+  
+  header img {
+      width: 100px;
+    height: auto;
+    margin-right: 20px;
+  }
+  
+  .headings {
+      display: flex;
+    flex-direction: column;
+    margin: 0;
+  }
+  
+  .headings h1, p {
+    margin: 0;
+  }
+  
+  .slogan {
+    margin-top: 3%;
+    margin-left: 2%;
+  }
+  
+  .logoimage img {
+    width: 100%;
+  }
+  
+  .ham {
+    margin-top: 20px;
+    margin-left: 45px;
+    background-color: transparent;
+    font-size: 1.6rem;
+    color: white;
+    text-align: center;
+    border: none;
+  }
+  
+  nav {
+      margin: 0 auto;
+      width: 100%;
+      background-color: #8EC6FF;
+  }
+  
+  #active {
+    background-color: #000;
+    color: #fff
+  }
+  
+  .navigation {
+      list-style: none;
+      padding: 0;
+  }
+  
+  .navigation li {
+      display: none;
+  }
+  
+  .navigation a {
+      display: block;
+      padding: 0.75rem;
+      text-align: center;
+      text-decoration: none;
+      color: black;
+    font-weight: 700;
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 1.25rem;
+  }
+  
+  .navigation a:hover {
+      color: white;
+      background-color: black;
+  }
+  
+  .responsive li {
+      display: block;
+  }
+
+  .herodiv{
+    margin: 10px auto;
+    position: relative;
+    align-items: center;
+  }
+  
+  .herologo img {
+    width: 100%;
+  }
+
+  .cards {
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 5px;
+  }
+  
+  .cards section {
+    box-shadow: -4px 0px 15px 1px rgba(76, 76, 76, 0);
+    margin: auto;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: #d7e8eb;
+  }
+  
+  
+  
+  .cards section img {
+    padding-top: 20px;
+    border-radius: 18px;
+    width: 80%;
+    height: auto;
+    padding: 5px;
+    filter: blur(0em);
+    transition: filter 1s;
+    -webkit-border-radius: 18px;
+    -moz-border-radius: 18px;
+    -ms-border-radius: 18px;
+    -o-border-radius: 18px;
+  }
+  
+  .cards section:hover {
+    background-color: #a6bcc0;
+  
+  }
+  
+  .contact-info{
+    margin-bottom: 0;
+  }
+  
+  .contact-info img {
+    margin-top: 20px;
+  }
+  
+  .footer-bar {
+    margin-top: 0;
+    padding-top: 0;
+  }
+  
+  .footer-bar div {
+    display: inline;
+  }
+  .social {
+    padding: .5em;
+    max-width: 45px;
+    height: auto;
+    opacity: 0.75;
+  }
+  
+  .social:hover {
+  opacity: 1;
+  }
+  
+  .mapimage img {
+    width: 96%;
+    margin: 0 2%;
+  }
+  
+  .clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
