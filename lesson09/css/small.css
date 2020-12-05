@@ -3,13 +3,13 @@
   }
   
   header, footer {
+    font-family: 'PT Sans Narrow', sans-serif;
     width:100%;
     overflow:hidden;
     color: white;
     background-color: #00264c;
     text-align: center;
     padding: 1rem;
-    font-family: 'PT Sans Narrow', sans-serif;
   }
   
   header {
@@ -94,14 +94,12 @@
       display: block;
   }
 
-  .herodiv{
+  .herodiv img {
+    display: block;
     margin: 10px auto;
-    position: relative;
-    align-items: center;
   }
-  
-  .herologo img {
-    width: 100%;
+  .hero-logo {
+    max-width: 600px;
   }
 
   .cards {
@@ -109,20 +107,27 @@
     display: grid;
     grid-template-columns: 1fr;
     grid-gap: 5px;
+    margin-bottom: 1em;
+    font-family: 'PT Sans Narrow', sans-serif;
   }
   
+  .cards h2 {
+    margin-top: 5px;
+  }
+
   .cards section {
     box-shadow: -4px 0px 15px 1px rgba(76, 76, 76, 0);
     margin: auto;
-    padding-top: 30px;
-    padding-bottom: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     background-color: #d7e8eb;
   }
   
-  
-  
+  .cards img {
+    margin-top: 15px;
+  }
   .cards section img {
-    padding-top: 20px;
+    padding-top: 35px;
     border-radius: 18px;
     width: 80%;
     height: auto;
@@ -139,7 +144,7 @@
     background-color: #a6bcc0;
   
   }
-  
+
   .contact-info{
     margin-bottom: 0;
   }
