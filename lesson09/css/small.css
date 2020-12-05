@@ -59,7 +59,7 @@
       width: 100%;
       background-color: #8EC6FF;
   }
-  
+
   #active {
     background-color: #000;
     color: #fff
@@ -106,9 +106,11 @@
     text-align: center;
     display: grid;
     grid-template-columns: 1fr;
-    grid-gap: 5px;
+    grid-gap: 10px;
     margin-bottom: 1em;
     font-family: 'PT Sans Narrow', sans-serif;
+    border-style: solid;
+    border-width: 2px;
   }
   
   .cards h2 {
@@ -118,13 +120,12 @@
   .cards h4 {
     margin: 0.5em 0;
   }
-  
+
   .cards section {
-    box-shadow: -4px 0px 15px 1px rgba(76, 76, 76, 0);
     margin: auto;
     padding-top: 10px;
     padding-bottom: 10px;
-    background-color: #d7e8eb;
+    background-color: rgba(142, 198, 255, 0.35);
   }
   
   .cards img {
@@ -137,15 +138,10 @@
     height: auto;
     padding: 5px;
     filter: blur(0em);
-    transition: filter 1s;
-    -webkit-border-radius: 18px;
-    -moz-border-radius: 18px;
-    -ms-border-radius: 18px;
-    -o-border-radius: 18px;
   }
   
   .cards section:hover {
-    background-color: #a6bcc0;
+    background-color: #8EC6FF;
   
   }
 
@@ -177,8 +173,8 @@
   }
   
   .mapimage img {
-    width: 96%;
-    margin: 0 2%;
+    width: 80%;
+    margin: 0 10%;
   }
   
   .clearfix:after {
