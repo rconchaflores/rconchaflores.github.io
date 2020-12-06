@@ -111,9 +111,15 @@
   }
 
   .submitbutton {
-    margin-bottom: 1.25em;
+    margin-bottom: 1em;
     font-family: 'PT Sans Narrow', sans-serif;
     font-size: 1rem;
+  }
+
+  #submit {
+    display: block;
+    margin-left: auto;
+  margin-right: auto;
   }
 
   #stormcenter {
@@ -185,13 +191,8 @@
     height: 45px;
     border: none;
     color: black;
-    -webkit-border-radius: 20px;
-    -moz-border-radius: 20px;
-    -ms-border-radius: 20px;
-    -o-border-radius: 20px;
   }
-    
-  
+
   #stormcenter fieldset{
     border: 1px solid rgba(85, 85, 85, 0.288);
     padding: 0 2em 1em 1em;
