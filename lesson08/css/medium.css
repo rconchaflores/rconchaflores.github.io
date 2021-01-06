@@ -30,4 +30,8 @@
   .mapimage img {
 	  max-width: 500px;
   }
+
+  .footer-bar {
+    margin-top: 1em;
+  }
 }
