@@ -1,5 +1,5 @@
 body {
-    background-color: white;
+    background-color: #8EC6FF;
     font-family: 'PT Sans Narrow', sans-serif;
 }
 
@@ -11,22 +11,22 @@ body {
 }
 
 img {
+    max-width: 70%;
     margin-top: .25em;
     margin-bottom: 1.5em;
     margin-right: 2.5em;
+    margin-left: 0.25rem;
     border-radius: 2em;
     box-shadow: rgba(0, 0, 0, 0.25) .5em .5em;
-    width: 20%;
-    height: auto;
 }
 
 header,
 footer {
-    background-color: #002ba1;
+    background-color: #00264C;
     border-radius: 10px;
     text-align: center;
     padding: 10px;
-    color: rgb(0, 136, 255);
+    color: white;
 }
 
 #dateModified {
@@ -43,14 +43,6 @@ footer a:hover {
 
 main {
     padding: 20px;
-}
-
-@media screen and (max-width: 750px) {
-    #content {
-      max-width: 90%;
-      background-color: #252525;
-      margin: auto;
-    }
 }
 
 .clearfix:after {
