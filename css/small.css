@@ -11,10 +11,9 @@ body {
 }
 
 img {
-    max-width: 45%;
     margin: auto;
-    border-radius: 2em;
-    box-shadow: rgba(0, 0, 0, 0.25) .5em .5em;
+    border-radius: 1rem;
+    box-shadow: rgba(0, 0, 0, 0.15) .35rem .35rem;
 }
 
 header,
