@@ -16,12 +16,12 @@ header {
 }
 
 header img {
-	width: 100px;
+	max-width: 80%;
   height: auto;
   margin-right: 20px;
 }
 
-.headings {
+.headings, .ham {
 	display: flex;
   flex-direction: column;
   margin: 0;
@@ -35,9 +35,24 @@ header img {
   margin-top: 10px;
 }
 
-.ham {
-  margin-top: 20px;
-  margin-left: 45px;
+body {
+  background-color: #8EC6FF;
+}
+
+main {
+  background-color: white;
+}
+
+main h2 {
+  margin: 0;
+  padding-top: 1rem;
+  padding-bottom: 0.75rem
+}
+main p {
+  font-family: 'PT Sans Narrow', sans-serif;
+  font-size: 1rem;
+  text-align: center;
+  padding: 1rem 0;
 }
 
 nav {
@@ -48,11 +63,17 @@ nav {
 
 .navigation {
 	list-style: none;
-	padding: 0;
+  padding: 0;
+  margin: 0;
 }
 
 .navigation li {
 	display: none;
+}
+
+.contact-info{
+  margin-bottom: 0;
+  padding-top: 0;
 }
 
 .navigation a {
@@ -85,17 +106,33 @@ h2 {
   font-family: 'PT Sans Narrow', sans-serif;
   background-color: #8EC6FF;
   display: block;
-  margin: 10px;
   border: 1px solid black;
   padding: 1.5rem;
   font-size: medium;
   font-weight: 700;
-}
-
-.contact-info{
-  margin-bottom: 20px;
+  max-width: 60%;
+  margin: 0.5rem auto;
 }
 
 .footer-bar div {
   display: inline;
+}
+
+#active {
+  background-color: black;
+  color: white;
+}
+
+#article {
+  margin-bottom: 0;
+}
+
+.ham {
+  margin-left: 1rem;
+}
+
+@media only screen and (max-width: 420px) {
+	.ham {
+		margin-right: 1rem;
+  }
 }
