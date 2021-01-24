@@ -15,7 +15,10 @@
     border-color: black;
   }
 
-  
+  .navigation a:hover {
+    color: white;
+    background-color: black;
+  }
 
   main {
     max-width: 980px;
