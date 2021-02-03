@@ -29,11 +29,3 @@ const year = d.getFullYear();
 
 const fulldate = `${dayName}, ${d.getDate()} ${monthName} ${year}`;
 document.getElementById("update").textContent = fulldate;
-
-let dayOfWeek = new Date();
-const banner = document.getElementById("alert");
-if (dayOfWeek.getDay() == 5) {
-    banner.style.display = "content";
-} else {
-    banner.style.display = "none";
-}
