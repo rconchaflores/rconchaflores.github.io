@@ -21,7 +21,6 @@
   }
 
   main {
-    max-width: 980px;
     margin: 0 auto;
     display: grid;
     border-top: 1.5px solid;
@@ -29,14 +28,17 @@
     background-color: white;
   }
 
+  .placeholders div {
+    max-width: 45rem;
+    margin: 5px auto;
+  }
+
   header, nav {
-    max-width: 980px;
     margin: 0 auto;
     padding: 0;
   }
 
   .contact-info, .footer-bar {
-    max-width: 980px;
     margin: 0 auto;
     padding: 0;
     border-right: 1.5px solid;
