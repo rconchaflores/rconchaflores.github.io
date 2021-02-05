@@ -19,12 +19,32 @@
 	font-family: 'PT Sans Narrow', sans-serif;
 	margin-left: 0.5rem;
   }
-
   .article img {
-	  margin-bottom: 20px;
+	float: right;
+	max-width: 45%;
+	margin-bottom: 20px;
+  }
+  
+  .article p {
+	font-family: 'PT Sans Narrow', sans-serif;
+	display: inline;
   }
 
   footer {
 	  padding-top: 0;
+  }
+
+  .contact-us {
+	  display: grid;
+	  grid-template-columns: 1fr 1fr;
+  }
+
+  .contact-us img {
+	  display: inline;
+  }
+
+  .prestonmap {
+	  max-width: 90%;
+	  margin: 0 auto;
   }
 }

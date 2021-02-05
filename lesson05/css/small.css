@@ -110,6 +110,24 @@ main h1, h2 {
   height: auto;
 }
 
+.article h2 {
+  margin: 0;
+}
+
+.article img {
+  max-width: 95%;
+  margin-top: 0.5rem;
+}
+
+.article {
+  align-items: center;
+}
+
+.article p{
+  font-family: 'PT Sans Narrow', sans-serif;
+  
+}
+
 h3 {
   font-family: 'PT Sans Narrow', sans-serif;
 }
@@ -170,16 +188,6 @@ h3 {
   text-align: center;
 }
 
-.article img {
-  float: right;
-  max-width: 45%;
-}
-
-.article p {
-  font-family: 'PT Sans Narrow', sans-serif;
-  display: inline;
-}
-
 .footer-bar {
   margin-top: 0;
   padding-top: 0;
@@ -189,18 +197,14 @@ h3 {
   display: inline;
 }
 
-.contact-us {
-  display: block;
-}
-
-.contact-us img {
-  max-width: 40%;
-}
-
 .contact-us p {
   font-family: 'PT Sans Narrow', sans-serif;
   font-size: 1rem;
   margin-left: 0.5rem;
+}
+
+.prestonmap {
+  max-width: 100%;
 }
 
 .social {
