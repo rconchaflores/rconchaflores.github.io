@@ -89,9 +89,10 @@ nav {
 	display: block;
 }
 
-h2 {
-  text-align: center;
+main h1, h2 {
+  text-align: left;
   font-family: 'PT Sans Narrow', sans-serif;
+  margin-left: 0.5rem;
 }
 
 .mainh2 {
@@ -105,7 +106,7 @@ h2 {
 }
 
 .herodiv img {
-  max-width: 560px;
+  max-width: 100%;
   height: auto;
 }
 
@@ -113,41 +114,31 @@ h3 {
   font-family: 'PT Sans Narrow', sans-serif;
 }
 
-.weathersummary {
-  font-family: 'PT Sans Narrow', sans-serif;
-  border: 1px solid black;
-  padding: 0.5rem;
-  margin: auto 10px;
-}
-
 .weathersummary h3 {
-  margin-top: 0;
+  margin: 0;
   text-align: center;
 	text-decoration: underline;
 }
 
-.stats {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-gap: 20px;
-}
-
-.stats p {
-  text-align: right;
-  grid-column: 1;
-}
+.weathersummary{
+    display: block;
+    position: absolute;
+    top: 15px;
+    left: 0.5rem;
+    font-family: 'PT Sans Narrow', sans-serif;
+    border: 2px solid black;
+    box-shadow: 0 0 30px #111;
+    opacity: .8;
+    background: radial-gradient(#eee, #8EC6FF);
+  }
 
 .forecast {
-  display: contents;
+  display: none;
   background-color: #78b7ce;
   border-radius: 10px;
   
 }
 
-.forecasttable {
-  margin: 0 auto;
-  font-family: 'PT Sans Narrow', sans-serif;
-}
 
 .forecasttable th {
   background-color: #00264c;
@@ -173,6 +164,7 @@ h3 {
 
 .article {
   margin-bottom: 20px;
+  margin-left: 0.5rem;
 }
 .article h3 {
   text-align: center;
@@ -184,18 +176,8 @@ h3 {
 }
 
 .article p {
-font-family: 'PT Sans Narrow', sans-serif;
-margin: 20px auto;
-text-align: center;
-display: inline;
-}
-
-.contact-info{
-  margin-bottom: 0;
-}
-
-.contact-info img {
-  margin-top: 20px;
+  font-family: 'PT Sans Narrow', sans-serif;
+  display: inline;
 }
 
 .footer-bar {
@@ -206,6 +188,21 @@ display: inline;
 .footer-bar div {
   display: inline;
 }
+
+.contact-us {
+  display: block;
+}
+
+.contact-us img {
+  max-width: 40%;
+}
+
+.contact-us p {
+  font-family: 'PT Sans Narrow', sans-serif;
+  font-size: 1rem;
+  margin-left: 0.5rem;
+}
+
 .social {
   padding: .5em;
   max-width: 45px;
@@ -215,10 +212,6 @@ display: inline;
 
 .social:hover {
 opacity: 1;
-}
-
-footer img {
-  max-width: 50%;
 }
 
 .clearfix:after {
