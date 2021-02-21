@@ -117,13 +117,19 @@ h3 {
   font-family: 'PT Sans Narrow', sans-serif;
 }
 
-.weathersummary {
-  font-family: 'PT Sans Narrow', sans-serif;
-  border: 1px solid black;
-  max-width: 25em;
-  padding: 0.5rem;
-  margin: 0 auto;
-}
+.weathersummary{
+	display: block;
+	position: absolute;
+	top: 15px;
+	right: 20px;
+	font-family: 'PT Sans Narrow', sans-serif;
+	border: 2px solid black;
+	padding: 1.5rem;
+	box-shadow: 0 0 30px #111;
+	opacity: .8;
+	padding: 1.5rem;
+	background: radial-gradient(#eee, #8EC6FF);
+  }
 
 .weathersummary h3 {
   margin-top: 0;
@@ -194,6 +200,9 @@ text-align: center;
 display: inline;
 }
 
+footer {
+  padding-left: 0;
+}
 .contact-info{
   margin-bottom: 0;
 }
@@ -222,8 +231,7 @@ opacity: 1;
 }
 
 .mapimage img {
-  width: 96%;
-  margin: 0 2%;
+  max-width: 80%;
 }
 
 .clearfix:after {
