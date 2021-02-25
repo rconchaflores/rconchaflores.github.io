@@ -119,7 +119,7 @@
   #submit {
     display: block;
     margin-left: auto;
-  margin-right: auto;
+    margin-right: auto;
   }
 
   #stormcenter {
@@ -186,11 +186,17 @@
     width:80%;
     border-radius: 20px;
     max-width: 25rem;
-    background-color:  #ffd166;
+    background-color: #8EC6FF;
     font-size: 20px;
     height: 45px;
     border: none;
     color: black;
+  }
+
+  #stormcenter #submit:hover{
+    background-color:  #ffd166;
+    border: black;
+    border-style: solid;
   }
 
   #stormcenter fieldset{
