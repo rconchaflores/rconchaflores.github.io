@@ -23,6 +23,7 @@ fetch("../prophets/json/prophets.json")
       orderOfProphet.textContent = "Latter-day Prophet #" + prophets[i].order;
       image.setAttribute('src', prophets[i].imageurl);
       image.setAttribute('alt', `${prophets[i].name} ${prophets[i].lastname}`);
+      image.setAttribute('loading', 'lazy');
 
       card.appendChild(image);
       card.appendChild(h2);
