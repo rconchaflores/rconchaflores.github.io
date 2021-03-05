@@ -16,27 +16,27 @@ fetch(requestURL)
         let averageRainfall = document.createElement('p');
         let details = document.createElement('div');
       
-      name.textContent = towns[i].name;
-      motto.textContent = towns[i].motto;
-      
-      currentPopulation.textContent = 'Population: ' + towns[i].currentPopulation;
-      averageRainfall.textContent = 'Annual Rainfall: ' + towns[i].averageRainfall + ' ' + 'in.';
-      yearFounded.textContent = 'Year Founded: ' + towns[i].yearFounded;
-      
-      image.setAttribute('src', '/lesson09/images/' + towns[i].photo);
-      image.setAttribute('alt', towns[i].name);
-      
-      details.setAttribute('id', 'details');
-      
-      card.appendChild(details);
-      card.appendChild(image);
-      
-      details.appendChild(name);
-      details.appendChild(motto);
-      details.appendChild(yearFounded);
-      details.appendChild(currentPopulation);
-      details.appendChild(averageRainfall);
-      document.querySelector('div.cards').appendChild(card);
+        name.textContent = towns[i].name;
+        motto.textContent = towns[i].motto;
+        
+        currentPopulation.textContent = 'Population: ' + towns[i].currentPopulation;
+        averageRainfall.textContent = 'Annual Rainfall: ' + towns[i].averageRainfall + ' ' + 'in.';
+        yearFounded.textContent = 'Year Founded: ' + towns[i].yearFounded;
+        
+        image.setAttribute('src', '/lesson09/images/' + towns[i].photo);
+        image.setAttribute('alt', towns[i].name);
+        
+        details.setAttribute('id', 'details');
+        
+        card.appendChild(details);
+        card.appendChild(image);
+        
+        details.appendChild(name);
+        details.appendChild(motto);
+        details.appendChild(yearFounded);
+        details.appendChild(currentPopulation);
+        details.appendChild(averageRainfall);
+        document.querySelector('div.cards').appendChild(card);
       }
    }
 
