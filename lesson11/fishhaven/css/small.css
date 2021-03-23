@@ -176,6 +176,26 @@ h3 {
   align-items: center;
 }
 
+.upcoming {
+  font-size: 1rem;
+  padding:5px;
+  display: block;
+  color: white;
+  background-color: #00264c;
+  border: 3px solid black;
+  margin-top: 20px;
+  text-align: center;
+  max-width: 35rem;
+  padding-top: 0.5rem;
+  padding-bottom: 1rem;
+  margin: 0 auto;
+  margin-top: 1rem;
+}
+
+.upcoming p {
+  font-family: 'PT Sans Narrow', sans-serif;
+}
+
 .article {
   margin-bottom: 20px;
 }
