@@ -1,0 +1,252 @@
+#alert {
+    text-align: center;
+  }
+  
+  header, footer {
+    width:100%;
+    overflow:hidden;
+    color: white;
+    background-color: #00264c;
+    text-align: center;
+    padding: 1rem;
+    font-family: 'PT Sans Narrow', sans-serif;
+  }
+  
+  header {
+      background-color: #00264c;
+      display: flex;
+      align-items:center;
+      justify-content:center;
+  }
+  
+  header img {
+      width: 100px;
+    height: auto;
+    margin-right: 20px;
+  }
+  
+  .headings {
+      display: flex;
+    flex-direction: column;
+    margin: 0;
+  }
+  
+  .headings h1, p {
+    margin: 0;
+  }
+  
+  .slogan {
+    margin-top: 3%;
+    margin-left: 2%;
+  }
+  
+  .logoimage img {
+    width: 100%;
+  }
+  
+  .ham {
+    margin-top: 20px;
+    margin-left: 45px;
+    background-color: transparent;
+    font-size: 1.6rem;
+    color: white;
+    text-align: center;
+    border: none;
+  }
+  
+  nav {
+      margin: 0 auto;
+      width: 100%;
+      background-color: #8EC6FF;
+  }
+  
+  #active {
+    background-color: #000;
+    color: #fff
+  }
+  
+  .navigation {
+      list-style: none;
+      padding: 0;
+  }
+  
+  .navigation li {
+      display: none;
+  }
+  
+  .navigation a {
+      display: block;
+      padding: 0.75rem;
+      text-align: center;
+      text-decoration: none;
+      color: black;
+    font-weight: 700;
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 1.25rem;
+  }
+  
+  .navigation a:hover {
+      color: white;
+      background-color: black;
+  }
+  
+  .responsive li {
+      display: block;
+  }
+
+  .thankyoumain h2{
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 1.75rem;
+    text-align: center;
+  }
+
+  .thankyoumain p {
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 1.25rem;
+    text-align: center;
+  }
+
+  .thankyoumain {
+    margin-bottom: 1.25em;
+  }
+
+  .submitbutton {
+    margin-bottom: 1em;
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 1rem;
+  }
+
+  #submit {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #stormcenter {
+    max-width: 750px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  #stormcenter h2, legend {
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 1.25em;
+  }
+
+  #stormcenter label {
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 1em;
+  }
+
+  #stormcenter .formfield label {
+    display:flex;
+    flex-direction: column;
+  }
+  #stormcenter .formfield .dangerlevel {
+    flex-direction: row;
+  }
+    
+  #stormcenter .formfield .dangerlevel .optionvalue {
+    position: relative;
+    top: 10px;
+    left: 15px;
+  }
+    
+  #stormcenter input {
+    height:30px;
+    border: 1px solid rgba(85, 85, 85, 0.288);
+  } 
+  #stormcenter input:required:invalid {
+    border-left: 6px solid rgba(255, 0, 0, 0.568);
+  }
+  
+  #stormcenter input:required:valid {
+      border-left: 6px solid green;
+    }
+    #stormcenter input[type=radio] {
+      display: block;
+    }
+    
+    #stormcenter #comments {
+      height: 80px;
+    }
+    
+    #stormcenter label {
+        margin-left: 20px;
+        text-align: left;
+        padding: 15px 0px 0px;
+    }
+  
+    #stormcenter .formfield {
+      margin-top: 10px;
+    }
+    
+  #stormcenter #submit {
+    margin-top: 20px;
+    width:80%;
+    border-radius: 20px;
+    max-width: 25rem;
+    background-color: #8EC6FF;
+    font-size: 20px;
+    height: 45px;
+    border: none;
+    color: black;
+  }
+
+  #stormcenter #submit:hover{
+    background-color:  #ffd166;
+    border: black;
+    border-style: solid;
+  }
+
+  #stormcenter fieldset{
+    border: 1px solid rgba(85, 85, 85, 0.288);
+    padding: 0 2em 1em 1em;
+    border-radius: 5px;
+  }
+    
+  #stormcenter legend {
+    text-align: left;
+    font-weight: 400;
+    color: #353E46;
+    font-size: 1.4em;
+    padding: 0.75em;
+  }
+
+  .contact-info{
+    margin-bottom: 0;
+  }
+  
+  .contact-info img {
+    margin-top: 20px;
+  }
+  
+  .footer-bar {
+    margin-top: 0;
+    padding-top: 0;
+  }
+  
+  .footer-bar div {
+    display: inline;
+  }
+  .social {
+    padding: .5em;
+    max-width: 45px;
+    height: auto;
+    opacity: 0.75;
+  }
+  
+  .social:hover {
+  opacity: 1;
+  }
+  
+  .mapimage img {
+    width: 96%;
+    margin: 0 2%;
+  }
+  
+  .clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+  }

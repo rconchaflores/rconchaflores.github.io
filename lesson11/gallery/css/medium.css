@@ -1,0 +1,33 @@
+@media only screen and (min-width: 53em) {
+	.headings h1 {
+		font-size: 3rem;
+	}
+
+	.slogan {
+		letter-spacing: 1.5pt;
+		margin-left: 3%;
+  }
+
+  .img-container {
+    grid-template-columns: 1fr 1fr;
+}
+
+  .contact-info {
+	display: flex;
+    flex-direction: row-reverse;
+	margin: 15px auto;
+	max-width: fit-content;  	
+  }
+
+  .contact {
+	  margin-left: 25px;
+  }
+
+  footer {
+	  padding-top: 0;
+  }
+
+  .mapimage img {
+	  max-width: 500px;
+  }
+}

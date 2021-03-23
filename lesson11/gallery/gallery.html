@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="images/climateize.ico">
+  <title>Climateize | Gallery</title>
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/small.css">
+  <link rel="stylesheet" href="css/medium.css">
+  <link rel="stylesheet" href="css/large.css">
+</head>
+
+<body>
+  <header class="clearfix">
+    <picture class="logoimage">
+      <source media="(max-width: 540px)" srcset="images/logo-50.png">
+      <img src="images/logo-100.png" alt="Climateize logo">
+    </picture>
+    <section class="headings">
+      <h1>Climateize</h1>
+      <p class="slogan">We'll worry about the climate for you</p>
+    </section>
+    <button class="ham">&#9776;</button>
+  </header>
+  <nav class="clearfix">
+    <ul class="navigation">
+      <li><a class="nav-link" href="../home/home.html">Home</a></li>
+      <li><a class="nav-link" href="../preston/preston.html">Preston</a></li>
+      <li><a class="nav-link" href="../sodasprings/sodasprings.html">Soda Springs</a></li>
+      <li><a class="nav-link" href="../fishhaven/fishhaven.html">Fish Haven</a></li>
+      <li><a class="nav-link" href="../stormcenter/stormcenter.html">Storm Center</a></li>
+      <li><a id="active" class="nav-link" href="../gallery/gallery.html">Gallery</a></li>
+    </ul>
+  </nav>
+  <main class="clearfix">
+    <div class="img-container">
+      <div class="img-box">
+        <picture>
+          <img src="images/placeholder.jpg" data-src="images/clouds.jpg" alt="Clouds in the sky">
+        </picture>
+        <p>Clouds in the sky</p>
+      </div>
+      <div class="img-box">
+        <picture>
+          <img src="images/placeholder.jpg" data-src="images/cloudy.jpg" alt="Cloudy and rainy">
+        </picture>
+        <p>Cloudy and rainy</p>
+      </div>
+      <div class="img-box">
+        <picture>
+          <img src="images/placeholder.jpg" data-src="images/foggy.jpg" alt="Foggy road in the forest">
+        </picture>
+        <p>Foggy road in the forest</p>
+      </div>
+      <div class="img-box">
+        <picture>
+          <img src="images/placeholder.jpg" data-src="images/lightning.jpg" alt="Lightning and crazy colors">
+        </picture>
+        <p>Lightning and crazy colors</p>
+      </div>
+      <div class="img-box">
+        <picture>
+          <img src="images/placeholder.jpg" data-src="images/misty.jpg" alt="Misty mountain">
+        </picture>
+        <p>Misty mountain</p>
+      </div>
+      <div class="img-box">
+        <picture>
+          <img src="images/placeholder.jpg" data-src="images/rainy.jpg" alt="Riding the bus on a rainy day">
+        </picture>
+        <p>Riding the bus on a rainy day</p>
+      </div>
+      <div class="img-box">
+        <picture>
+          <img src="images/placeholder.jpg" data-src="images/snowing.jpg" alt="Snow falling on umbrella">
+        </picture>
+        <p>Snow falling on umbrella</p>
+      </div>
+      <div class="img-box">
+        <picture>
+          <img src="images/placeholder.jpg" data-src="images/sunny.jpg" alt="Sunny day in the fields">
+        </picture>
+        <p>Sunny day in the fields</p>
+      </div>
+      <div class="img-box">
+        <picture>
+          <img src="images/placeholder.jpg" data-src="images/cloudy2.jpg" alt="About to rain on a main road">
+        </picture>
+        <p>About to rain on a main road</p>
+      </div>
+    </div>
+  </main>
+  <footer>
+    <div class="contact-info">
+      <section class="contact">
+        <h3>Contact Information</h3>
+        <p>1 Address St. Preston, ID</p>
+        <p>contact@email.com</p>
+        <p>(123) 456-7890</p>
+        <a href="https://www.facebook.com/"><img class="social" src="images/facebook-logo.png" alt="facebook"></a>
+        <a href="https://www.instagram.com/"><img class="social" src="images/instagram-logo.png" alt="instagram"></a>
+        <a href="https://www.youtube.com/"><img class="social" src="images/youtube-logo.png" alt="youtube"></a>
+        <a href="https://twitter.com/"><img class="social" src="images/twitter-logo.png" alt="twitter"></a>
+    </section>
+    <picture class="mapimage">
+      <img src="images/preston.png" alt="prestonmap">
+    </picture>
+    </div>
+    <div class="footer-bar">
+      <p>© 2021 | Rodrigo Concha | Mexico</p>
+      <div>Today is:</div>
+      <span id="update"> </span>
+    </div>
+  </footer>
+  <script src="js/menu.js"></script>
+  <script src="js/date.js"></script>
+  <script src="js/windchill.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+  <script src="js/webfontload.js"></script>
+  <script src="js/lazyload.js"></script>
+</body>
+</html>

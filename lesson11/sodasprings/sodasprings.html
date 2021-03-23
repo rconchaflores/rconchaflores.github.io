@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="images/climateize.ico">
+  <title>Climateize | Soda Springs</title>
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/small.css">
+  <link rel="stylesheet" href="css/medium.css">
+  <link rel="stylesheet" href="css/large.css">
+</head>
+
+<body>
+</div>
+  <header class="clearfix">
+    <picture class="logoimage">
+      <source media="(max-width: 540px)" srcset="images/logo-50.png">
+      <img src="images/logo-100.png" alt="Climateize logo">
+    </picture>
+    <section class="headings">
+      <h1>Climateize</h1>
+      <p class="slogan">We'll worry about the climate for you</p>
+    </section>
+    <button class="ham">&#9776;</button>
+  </header>
+  <nav class="clearfix">
+    <ul class="navigation">
+      <li><a class="nav-link" href="../home/home.html">Home</a></li>
+      <li><a class="nav-link" href="../preston/preston.html">Preston</a></li>
+      <li><a id="active" class="nav-link" href="../sodasprings/sodasprings.html">Soda Springs</a></li>
+      <li><a class="nav-link" href="../fishhaven/fishhaven.html">Fish Haven</a></li>
+      <li><a class="nav-link" href="../stormcenter/stormcenter.html">Storm Center</a></li>
+      <li><a class="nav-link" href="../gallery/gallery.html">Gallery</a></li>
+    </ul>
+  </nav>
+  <main class="clearfix">
+    <h2 class="mainh2">Soda Springs Idaho</h2>
+    <div class="herodiv">
+        <picture class="herologo">
+          <source media="(max-width: 37.5em)" srcset="images/lesson06-500.jpeg">
+          <source media="(max-width: 60em)" srcset="images/lesson06-800.jpeg">
+          <img src="images/lesson06-1100.jpeg" alt="sunny field">
+        </picture>
+        <section class="weathersummary">
+            <h3>Weather Summary</h3>
+            <div class="stats">
+              <p>Town name: <span id="townname"></span></p>
+              <p>Current Temp: <span id="current-temp"></span>&deg;</p>
+              <p>High: <span id="tempmax"></span>&deg;F</p>
+              <p>Wind Chill: <span id="windchill"></span></p>
+              <p>Humidity: <span id="humidity"></span>%</p>
+              <p>Wind Speed: <span id="speed"></span> mph </p>
+            </div>
+        </section>
+    </div>
+    <div class="forecast">
+      <h2>Five-day Forecast</h2>
+      <table class="forecasttable">
+        <tr>
+          <th><span id="dayofweek1"></span></th>
+          <th><span id="dayofweek2"></span></th>
+          <th><span id="dayofweek3"></span></th>
+          <th><span id="dayofweek4"></span></th>
+          <th><span id="dayofweek5"></span></th>
+        </tr>
+        <tr>
+          <td><img id="icon1"
+              src="https://github.com/yuvraaaj/openweathermap-api-icons/blob/master/icons/unknown.png?raw=true"
+              alt="unknown" /></td>
+          <td><img id="icon2"
+              src="https://github.com/yuvraaaj/openweathermap-api-icons/blob/master/icons/unknown.png?raw=true"
+              alt="unknown"></td>
+          <td><img id="icon3"
+              src="https://github.com/yuvraaaj/openweathermap-api-icons/blob/master/icons/unknown.png?raw=true"
+              alt="unknown"></td>
+          <td><img id="icon4"
+              src="https://github.com/yuvraaaj/openweathermap-api-icons/blob/master/icons/unknown.png?raw=true"
+              alt="unknown"></td>
+          <td><img id="icon5"
+              src="https://github.com/yuvraaaj/openweathermap-api-icons/blob/master/icons/unknown.png?raw=true"
+              alt="unknown"></td>
+        </tr>
+        <tr>
+          <td><span id="forecast1"></span>&#8457;</td>
+          <td><span id="forecast2"></span>&#8457;</td>
+          <td><span id="forecast3"></span>&#8457;</td>
+          <td><span id="forecast4"></span>&#8457;</td>
+          <td><span id="forecast5"></span>&#8457;</td>
+        </tr>
+      </table>
+      <section class="upcoming">
+        <h3>Upcoming Events</h3>
+        <div id="event_box">
+        </div>
+    </section>
+  </div>
+    <div class=article>
+      <h3>Article</h3>
+      <picture class=articleimage>
+        <source media="(max-width: 200px)" srcset="images/article-200.jpeg">
+        <img src="images/article-400.jpg" alt="traffic on rainy day">
+      </picture>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc quam lectus, finibus quis commodo in, tincidunt vitae mauris. Sed mollis molestie turpis ac fermentum. Nullam luctus malesuada ex vel consectetur. Pellentesque vitae ornare massa. Donec iaculis pulvinar risus, in feugiat purus dignissim sit amet. Praesent nisl ipsum, maximus sit amet sapien ac, consequat aliquam quam. Curabitur ac sollicitudin eros. Sed lacinia risus at turpis pretium, non fringilla metus luctus. Aliquam erat volutpat. Mauris tempus dignissim lorem, sed tincidunt elit consectetur nec. Proin sem justo, efficitur a eros ut, lacinia sollicitudin urna. Fusce dictum sit amet urna non vulputate. In elementum cursus urna, auctor laoreet lectus auctor et. Integer sed justo in nunc efficitur faucibus ac non risus.
+
+          Proin nulla nisi, lobortis non est ut, volutpat pretium arcu. Fusce volutpat placerat dui, in porttitor eros luctus eget. Praesent convallis mi a rhoncus ornare. Vivamus quis aliquet augue. Integer at sodales ante. Nam sollicitudin nisi dignissim nisi ultricies mattis. Vivamus consectetur in augue a auctor. Etiam ac massa gravida, suscipit diam in, finibus lacus. Nullam gravida rhoncus justo eget facilisis. Ut ultrices risus vel ex efficitur commodo. Donec porttitor ac libero a feugiat. Fusce euismod pharetra sem, ut ullamcorper risus viverra in. Sed interdum pharetra augue in pulvinar. Aliquam ligula felis, sollicitudin non neque ut, consectetur congue neque. Praesent feugiat neque ut accumsan tristique. Integer tellus ligula, ornare nec orci vitae, elementum lobortis sem.
+          
+          Nam lacinia eu massa sed facilisis. Nunc vel eros eget sapien tincidunt porta ut nec ex. Pellentesque et laoreet dui, eget pretium ante. Aliquam pharetra magna nunc, ac luctus nulla tincidunt a. Duis tempor est ac nisi blandit ullamcorper. Phasellus molestie aliquam urna nec efficitur. Nunc tincidunt, felis ac sodales dictum, eros nibh varius mauris, id facilisis augue justo ac est. Aliquam massa nisi, luctus at sodales in, porttitor vitae lacus. In est ligula, porttitor et egestas vel, mollis sit amet libero. Duis a tellus luctus urna mollis laoreet. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Maecenas eu nulla velit. Donec faucibus pellentesque lacus et pulvinar. Nunc odio lorem, tempus non nibh vel, cursus volutpat mi.</p>
+    </div>
+  </main>
+  <footer>
+    <div class="contact-info">
+      <section class="contact">
+        <h3>Contact Information</h3>
+        <p>1 Address St. Preston, ID</p>
+        <p>contact@email.com</p>
+        <p>(123) 456-7890</p>
+        <a href="https://www.facebook.com/"><img class="social" src="images/facebook-logo.png" alt="facebook"></a>
+        <a href="https://www.instagram.com/"><img class="social" src="images/instagram-logo.png" alt="instagram"></a>
+        <a href="https://www.youtube.com/"><img class="social" src="images/youtube-logo.png" alt="youtube"></a>
+        <a href="https://twitter.com/"><img class="social" src="images/twitter-logo.png" alt="twitter"></a>
+    </section>
+    <picture class="mapimage">
+      <img src="images/sodasprings.jpg" alt="springsmap">
+    </picture>
+    </div>
+    <div class="footer-bar">
+      <p>© 2021 | Rodrigo Concha | Mexico</p>
+      <div>Today is:</div>
+      <span id="update"> </span>
+    </div>
+  </footer>
+  <script src="js/menu.js"></script>
+  <script src="js/date.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+  <script src="js/webfontload.js"></script>
+  <script src="js/weatherapi.js"></script>
+  <script src="js/upcoming.js"></script>
+</body>
+
+</html>
