@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="images/climateize.ico">
+  <title>Climateize | Soda Springs</title>
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/small.css">
+  <link rel="stylesheet" href="css/medium.css">
+  <link rel="stylesheet" href="css/large.css">
+</head>
+
+<body>
+  <header class="clearfix">
+    <picture class="logoimage">
+      <source media="(max-width: 540px)" srcset="images/logo-50.png">
+      <img src="images/logo-100.png" alt="Climateize logo">
+    </picture>
+    <section class="headings">
+      <h1>Climateize</h1>
+      <p class="slogan">We'll worry about the climate for you</p>
+    </section>
+    <button class="ham">&#9776;</button>
+  </header>
+  <nav class="clearfix">
+    <ul class="navigation">
+      <li><a class="nav-link" href="../home/home.html">Home</a></li>
+      <li><a class="nav-link" href="../preston/preston.html">Preston</a></li>
+      <li><a id="active" class="nav-link" href="../sodasprings/sodasprings.html">Soda Springs</a></li>
+      <li><a class="nav-link" href="../fishhaven/fishhaven.html">Fish Haven</a></li>
+      <li><a class="nav-link" href="../stormcenter/stormcenter.html">Storm Center</a></li>
+      <li><a class="nav-link" href="../gallery/gallery.html">Gallery</a></li>
+    </ul>
+  </nav>
+  <main class="clearfix">
+    <h2 class="mainh2">Soda Springs Idaho</h2>
+    <div class="herodiv">
+        <picture class="herologo">
+          <source media="(max-width: 37.5em)" srcset="images/sodasprings-small.jpg">
+          <source media="(max-width: 60em)" srcset="images/sodasprings-medium.jpg">
+          <img src="images/sodasprings-large.jpg" alt="sunny field">
+        </picture>
+        <section class="weathersummary">
+            <h3>Weather Summary</h3>
+            <div class="stats">
+              <p>Town name: <span id="townname"></span></p>
+              <p>Current Temp: <span id="current-temp"></span>&deg;</p>
+              <p>High: <span id="tempmax"></span>&deg;F</p>
+              <p>Wind Chill: <span id="windchill"></span></p>
+              <p>Humidity: <span id="humidity"></span>%</p>
+              <p>Wind Speed: <span id="speed"></span> mph </p>
+            </div>
+        </section>
+    </div>
+    <div class="forecast">
+      <h2>Five-day Forecast</h2>
+      <table class="forecasttable">
+        <tr>
+          <th><span id="dayofweek1"></span></th>
+          <th><span id="dayofweek2"></span></th>
+          <th><span id="dayofweek3"></span></th>
+          <th><span id="dayofweek4"></span></th>
+          <th><span id="dayofweek5"></span></th>
+        </tr>
+        <tr>
+          <td><img id="icon1"
+              src="https://github.com/yuvraaaj/openweathermap-api-icons/blob/master/icons/unknown.png?raw=true"
+              alt="unknown" /></td>
+          <td><img id="icon2"
+              src="https://github.com/yuvraaaj/openweathermap-api-icons/blob/master/icons/unknown.png?raw=true"
+              alt="unknown"></td>
+          <td><img id="icon3"
+              src="https://github.com/yuvraaaj/openweathermap-api-icons/blob/master/icons/unknown.png?raw=true"
+              alt="unknown"></td>
+          <td><img id="icon4"
+              src="https://github.com/yuvraaaj/openweathermap-api-icons/blob/master/icons/unknown.png?raw=true"
+              alt="unknown"></td>
+          <td><img id="icon5"
+              src="https://github.com/yuvraaaj/openweathermap-api-icons/blob/master/icons/unknown.png?raw=true"
+              alt="unknown"></td>
+        </tr>
+        <tr>
+          <td><span id="forecast1"></span>&#8457;</td>
+          <td><span id="forecast2"></span>&#8457;</td>
+          <td><span id="forecast3"></span>&#8457;</td>
+          <td><span id="forecast4"></span>&#8457;</td>
+          <td><span id="forecast5"></span>&#8457;</td>
+        </tr>
+      </table>
+      <section class="upcoming">
+        <h3>Upcoming Events</h3>
+        <div id="event_box">
+        </div>
+    </section>
+  </div>
+    <div class=article>
+      <h3>Article</h3>
+      <picture class=articleimage>
+        <source media="(max-width: 200px)" srcset="images/sodasprings-article-small.jpg">
+        <img src="images/sodasprings-article.jpg" alt="geyser shooting up">
+      </picture>
+        <p>Soda Springs is a city in Caribou County, Idaho, United States. Its population was 3,058 at the 2010 census.
+          The city has been the county seat of Caribou County since the county was organized in 1919. In the 1860s, Soda Springs served as the seat of Oneida County.
+          The city is named for the hundreds of natural springs of carbonated water that are located in and around the city. The springs were well known to Native Americans and were a famous landmark along the Oregon Trail in the middle 19th century. Today the city is also known as the location of the Soda Springs Geyser, which was unleashed in 1934 when "town fathers" were looking for hot water for a "hot pool" bathing attraction. Instead they drilled into a chamber of highly pressurized carbon dioxide gas and cold water and the geyser was released. After running for weeks, and flooding the downtown area, it was capped and manually released when requested as a tourist attraction. Now it is let loose every hour on the hour by a timed release valve. Its height and volume have not decreased after many years. 
+          There are viewing platforms at either end of the travertine mound where the geyser erupts. Interpretive signs are located on the platforms explaining this phenomenon.
+          Soda Springs is also the location of one of the Ground Observer Corps sites.
+        </p>
+    </div>
+  </main>
+  <footer>
+    <div class="contact-info">
+      <section class="contact">
+        <h3>Contact Information</h3>
+        <p>1 Address St. Soda Springs, ID</p>
+        <p>contact@email.com</p>
+        <p>(123) 456-7890</p>
+        <a href="https://www.facebook.com/"><img class="social" src="images/facebook-logo.png" alt="facebook"></a>
+        <a href="https://www.instagram.com/"><img class="social" src="images/instagram-logo.png" alt="instagram"></a>
+        <a href="https://www.youtube.com/"><img class="social" src="images/youtube-logo.png" alt="youtube"></a>
+        <a href="https://twitter.com/"><img class="social" src="images/twitter-logo.png" alt="twitter"></a>
+    </section>
+    <picture class="mapimage">
+      <img src="images/sodasprings.jpg" alt="springsmap">
+    </picture>
+    </div>
+    <div class="footer-bar">
+      <p>© 2021 | Rodrigo Concha | Mexico</p>
+      <div>Today is:</div>
+      <span id="update"> </span>
+    </div>
+  </footer>
+  <script src="js/menu.js"></script>
+  <script src="js/date.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+  <script src="js/webfontload.js"></script>
+  <script src="js/weatherapi.js"></script>
+  <script src="js/upcoming.js"></script>
+</body>
+
+</html>

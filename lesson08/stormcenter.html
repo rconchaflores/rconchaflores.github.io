@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="images/climateize.ico">
+  <title>Climateize | Storm Center</title>
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/small.css">
+  <link rel="stylesheet" href="css/medium.css">
+  <link rel="stylesheet" href="css/large.css">
+</head>
+
+<body>
+  <header class="clearfix">
+    <picture class="logoimage">
+      <source media="(max-width: 540px)" srcset="images/logo-50.png">
+      <img src="images/logo-100.png" alt="Climateize logo">
+    </picture>
+    <section class="headings">
+      <h1>Climateize</h1>
+      <p class="slogan">We'll worry about the climate for you</p>
+    </section>
+    <button class="ham">&#9776;</button>
+  </header>
+  <nav class="clearfix">
+    <ul class="navigation">
+      <li><a class="nav-link" href="../lesson09/lesson09.html">Home</a></li>
+      <li><a class="nav-link" href="../lesson06/preston-6.html">Preston</a></li>
+      <li><a class="nav-link" href="#">Soda Springs</a></li>
+      <li><a class="nav-link" href="#">Fish Haven</a></li>
+      <li><a id="active" class="nav-link" href="../lesson08/lesson08.html">Storm Center</a></li>
+      <li><a class="nav-link" href="../lesson07/gallery-7.html">Gallery</a></li>
+    </ul>
+  </nav>
+  <main class="clearfix">
+    <form method="GET" action="thanks.html">
+        <div id="stormcenter">
+           <h2>Fill out this form to report weather alert:</h2>
+           <fieldset>
+              <legend>Personal Information</legend>
+           <div class="formfield">
+              <label>Full Name: <input type="text" name="fullname" id="fullname" title="Must be at least 5 characters" pattern="^[a-zA-Z\s\.\-]{5,}$"
+                    required></label>
+           </div>
+           <div class="formfield">
+              <label>Email: <input type="email" name="email" id="email" placeholder="email@address.com"></label>
+           </div>
+           <div class="formfield">
+              <label>Phone Number: <input type="tel" name="phonenumber" id="phonenumber" minlength="10" placeholder="999-999-9999" 
+               pattern="^\s*(?:\+?(\d{1,3}))?[-. (]*(\d{3})[-. )]*(\d{3})[-. ]*(\d{4})(?: *x(\d+))?\s*$" required></label>
+           </div>
+           <div class="formfield">
+              <label>Zip Code: <input type="number" name="zipcode" id="zipcode" min="9999" required></label>
+           </div>
+        </fieldset>
+        <fieldset>
+           <legend>Storm Information</legend>
+           <div class="formfield">
+              <label>Storm Date: <input type="date" name="stormdate"></label>
+           </div>
+           <div class="formfield">
+              <label>Storm Type: <input list="stormtypes" name="stormtype" id="stormtype">
+                 <datalist id="stormtypes">
+                    <option value="Flash Flood">
+                    <option value="Hail">
+                    <option value="Hurricane">
+                    <option value="Thunderstorm">
+                    <option value="Tornado">
+                 </datalist>
+              </label>
+           </div>
+           <div class="formfield">
+              <label><span id="severitydisplay">Severity: 5</span><input type="range" name="severity" id="severity" min="1" max="10" onchange="updateSeverity(this.value);" value="5"></label>
+           </div>
+           <div class="formfield">
+              <label class="storm">Storm Region:
+                 <select name="region">
+                    <option value="" selected disabled>Select Region...</option>
+                    <option value="preston">Preston</option>
+                    <option value="soda springs">Soda Springs</option>
+                    <option value="fish haven">Fish Haven</option>
+                 </select>
+              </label>
+            </div>
+           <div class="formfield">
+              <label class="dangerlevel">User Danger Level:</label>
+              <label class="dangerlevel"><input type="radio" name="userindangerlevel" value="Yes"><span class="optionvalue">Yes</span></label>
+              <label class="dangerlevel"><input type="radio" name="userindangerlevel" value="Maybe"><span class="optionvalue">Maybe</span></label>
+              <label class="dangerlevel"><input type="radio" name="userindangerlevel" value="No"><span class="optionvalue">No</span></label>
+           </div>
+           <div class="formfield">
+              <label>Comments: <textarea name="comments" id="comments"></textarea></label>
+           </div>
+        </fieldset>
+         <div class="submitbutton">
+            <input name="submit" id="submit" type="submit" value="Submit">
+         </div>
+         </div>
+      </form>
+  </main>
+  <footer>
+    <div class="contact-info">
+      <section class="contact">
+        <h3>Contact Information</h3>
+        <p>1 Address St. Preston, ID</p>
+        <p>contact@email.com</p>
+        <p>(123) 456-7890</p>
+        <a href="https://www.facebook.com/"><img class="social" src="images/facebook-logo.png" alt="facebook"></a>
+        <a href="https://www.instagram.com/"><img class="social" src="images/instagram-logo.png" alt="instagram"></a>
+        <a href="https://www.youtube.com/"><img class="social" src="images/youtube-logo.png" alt="youtube"></a>
+        <a href="https://twitter.com/"><img class="social" src="images/twitter-logo.png" alt="twitter"></a>
+    </section>
+    <picture class="mapimage">
+      <img src="images/preston.png" alt="prestonmap">
+    </picture>
+    </div>
+    <div class="footer-bar">
+      <p>© 2021 | Rodrigo Concha | Mexico</p>
+      <div>Today is:</div>
+      <span id="update"> </span>
+    </div>
+  </footer>
+  <script src="js/menu.js"></script>
+  <script src="js/date.js"></script>
+  <script src="js/windchill.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+  <script src="js/webfontload.js"></script>
+  <script src="js/lazyload.js"></script>
+  <script src="js/severity.js"></script>
+</body>
+</html>

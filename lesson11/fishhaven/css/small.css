@@ -1,0 +1,262 @@
+#alert {
+  text-align: center;
+}
+
+header, footer {
+  width:100%;
+  overflow:hidden;
+  color: white;
+  background-color: #00264c;
+  text-align: center;
+  padding: 1rem;
+  font-family: 'PT Sans Narrow', sans-serif;
+}
+
+header {
+	background-color: #00264c;
+	display: flex;
+	align-items:center;
+	justify-content:center;
+}
+
+header img {
+	width: 100px;
+  height: auto;
+  margin-right: 20px;
+}
+
+.headings {
+	display: flex;
+  flex-direction: column;
+  margin: 0;
+}
+
+.headings h1, p {
+  margin: 0;
+}
+
+.slogan {
+  margin-top: 3%;
+  margin-left: 2%;
+}
+
+.logoimage img {
+  width: 100%;
+}
+
+.ham {
+  margin-top: 20px;
+  margin-left: 45px;
+  background-color: transparent;
+  font-size: 1.6rem;
+  color: white;
+  text-align: center;
+  border: none;
+}
+
+nav {
+	margin: 0 auto;
+	width: 100%;
+	background-color: #8EC6FF;
+}
+
+#active {
+  background-color: #000;
+  color: #fff
+}
+
+.navigation {
+	list-style: none;
+	padding: 0;
+}
+
+.navigation li {
+	display: none;
+}
+
+.navigation a {
+	display: block;
+	padding: 0.75rem;
+	text-align: center;
+	text-decoration: none;
+	color: black;
+  font-weight: 700;
+  font-family: 'PT Sans Narrow', sans-serif;
+  font-size: 1.25rem;
+}
+
+.navigation a:hover {
+	color: white;
+	background-color: black;
+}
+
+.responsive li {
+	display: block;
+}
+
+h2 {
+  text-align: center;
+  font-family: 'PT Sans Narrow', sans-serif;
+}
+
+.mainh2 {
+  margin-top: 0%;
+}
+
+.herodiv{
+  margin: 10px auto;
+  position: relative;
+  align-items: center;
+}
+
+.herologo img {
+  width: 100%;
+}
+
+h3 {
+  font-family: 'PT Sans Narrow', sans-serif;
+}
+
+.weathersummary{
+	display: block;
+	position: absolute;
+	top: 15px;
+	right: 20px;
+	font-family: 'PT Sans Narrow', sans-serif;
+	border: 2px solid black;
+	padding: 1.5rem;
+	box-shadow: 0 0 30px #111;
+	opacity: .8;
+	padding: 1.5rem;
+	background: radial-gradient(#eee, #8EC6FF);
+  }
+
+.weathersummary h3 {
+  margin-top: 0;
+  text-align: center;
+	text-decoration: underline;
+}
+
+.weathersummary h3 p {
+  text-align: center;
+}
+
+.forecast {
+  display: contents;
+  background-color: #78b7ce;
+  border-radius: 10px;
+  
+}
+
+.forecasttable {
+  margin: 0 auto;
+  font-family: 'PT Sans Narrow', sans-serif;
+  max-width: 90%;
+}
+
+.forecasttable th {
+  background-color: #00264c;
+  height: 30px;
+  width: 120px;
+  color: white;
+  text-align: center;
+  border: 1px solid black;
+}
+
+.forecasttable td {
+  border: 1px solid black;
+  border-collapse: initial;
+  height: 100px;
+  text-align: center;
+}
+
+.forecasttable img {
+  width: 90px;
+  height: auto;
+  align-items: center;
+}
+
+.upcoming {
+  font-size: 1rem;
+  padding:5px;
+  display: block;
+  color: white;
+  background-color: #00264c;
+  border: 3px solid black;
+  margin-top: 20px;
+  text-align: center;
+  max-width: 35rem;
+  padding-top: 0.5rem;
+  padding-bottom: 1rem;
+  margin: 0 auto;
+  margin-top: 1rem;
+}
+
+.upcoming p {
+  font-family: 'PT Sans Narrow', sans-serif;
+}
+
+.article {
+  margin-bottom: 20px;
+}
+.article h3 {
+  text-align: center;
+}
+
+.articleimage {
+  display: block;
+  float: right;
+  width: 46%;
+  margin: 0 2%;
+}
+
+.articleimage img {
+  width: 100%;
+}
+
+.article p {
+font-family: 'PT Sans Narrow', sans-serif;
+margin: 20px auto;
+text-align: center;
+display: inline;
+}
+
+footer {
+  padding-left: 0;
+}
+.contact-info{
+  margin-bottom: 0;
+}
+
+.contact-info img {
+  margin-top: 20px;
+}
+
+.footer-bar {
+  margin-top: 0;
+  padding-top: 0;
+}
+
+.footer-bar div {
+  display: inline;
+}
+.social {
+  padding: .5em;
+  max-width: 45px;
+  height: auto;
+  opacity: 0.75;
+}
+
+.social:hover {
+opacity: 1;
+}
+
+.mapimage img {
+  max-width: 80%;
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
